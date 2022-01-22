@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* {
+  box-sizing: border-box;
+}
+.workspace {
+  width: 75%;
+  overflow: hidden;
+  background-size: cover;
+  background: url("lol.jpg");
+  background-size: cover;
+  height: 100vh;
+  float: right;
+  padding: 1em;
+}
+.login-container {
+  background-color: rgb(250, 250, 250);
+  height: 100%;
+  width: 25%;
+  text-align: center;
+  display: inline-block;
+  padding: 0px 50px;
+}
+.riot-logo {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 50%;
+}
+
+.input {
+  font-weight: 700;
+  background: rgba(202, 202, 202, 0.3);
+  margin-top: 20px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: none;
+  padding: 20px;
+  font-size: 15px;
+  width: 100%;
+}
+.submit-button {
+  margin-top: 220px;
+  font-size: 25px;
+  background: rgba(202, 202, 202, 0);
+  padding: 20px;
+  border-radius: 15px;
+  border-color: rgba(202, 202, 202, 0.3);
+  border: 2px solid;
+  cursor: pointer;
+}
+.warning-button {
+  margin-top: 20px;
+  font-size: 25px;
+  background: rgb(212, 52, 212);
+  transform: rotate(45deg);
+  border: none;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  border-radius: 6px;
+  font-weight: 700;
+}
+.warning-button:hover {
+  background: rgb(177, 42, 177);
+}
+
+.warning-button > span {
+  transform: rotate(-45deg);
+  display: block;
+}
+
+.config-button {
+  width: 45px;
+  height: 45px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+}
+
+.config-button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkbox {
+  margin-top: 20px;
+}
